@@ -1,0 +1,252 @@
+*{
+
+     margin: 0%;
+     padding: 0%;
+}
+
+
+
+.first{
+       
+       font-size: 60px;
+       font-family: Georgia;
+       color: #1C2833;
+       text-align: center;
+       text-decoration: underline;
+       font-weight: bolder;
+ 
+ }
+
+ .f2{
+
+         font-size: 20px;
+         font-family: sans-serif;
+         color: #2C3E50;
+         text-align: center;
+ }
+
+
+
+
+ body{
+
+       background-image: linear-gradient(to right,#ee9ca7 , #ffdde1);
+
+ }  
+
+  #nav{
+
+             width: 1140px;
+             height: 80px;
+             background-color: #F5EEF8;
+             margin: 0 auto;
+        
+  }
+
+
+
+  #nav ul li{
+
+              list-style-type: none;
+              margin: 20px;
+              float: left;
+              display: flex;
+             flex-wrap: wrap;
+  }
+
+  #nav ul li a{
+
+               text-decoration: none;
+               font-size: 25px;
+               color:#000066 ;
+               font-family: serif;
+
+
+  }
+
+
+   #nav ul li a:hover{
+
+      text-decoration: underline;
+   }
+
+
+ .center{
+
+         display:block ;
+         margin-left: auto;
+         margin-right: auto;
+         width: 50%;
+
+
+ }
+
+
+
+
+
+ .page{
+
+           font-size: 30px;
+           font-family: revert;
+           text-transform: uppercase;
+           color:#2C3E50 ;
+           text-align: center;
+           text-decoration: underline;
+
+
+ }
+
+
+   .sc{
+
+          background-color: #F5EEF8;
+          padding: 50px 20px;
+          text-align: center;
+
+   }
+
+
+   .en{
+
+          border: none;
+          padding:10px 20px ;
+          font-size: 50px;
+          border-radius: 5px;
+
+
+   }
+
+
+
+
+   .product{
+
+              background-color: #F5EEF8;
+              display: flex; 
+              flex-wrap: wrap;
+              flex-flow: wrap row;
+              justify-content: space-around;
+              align-items: center;
+
+   }
+
+   .d1{
+
+         font-size: 30px;
+         margin: 10px;
+         padding: 20px; 
+        background-color: #BBDEFB;
+        
+
+
+   }
+
+ .body{
+
+       font-family: 'Playfair Display', serif;
+       font-family: 'Roboto Condensed', sans-serif;
+       font-family: 'Young Serif', serif;
+
+ }
+
+
+  .navbar{
+         
+       background-color: #F5EEF8;
+       padding: 1% 7%; 
+       text-align: center;
+       justify-content: flex-end;
+
+  }
+
+
+  .navbar a{
+
+            text-decoration: none;
+            color: #000066;
+            padding: 10px 20px; 
+            cursor: pointer;
+
+
+
+
+
+  }
+
+
+     .dropdown-containar{
+
+      display: inline ;
+      position: relative;
+
+                       
+     }
+
+   
+   .content{
+
+
+              position: absolute;
+              top: 30px;
+              right: 0px;
+              background-color: #F5EEF8;
+              text-align: left;
+              display: none;
+              min-width: 100px;
+
+
+
+   }
+
+
+   .dropdown-containar:hover .content{
+
+
+           display: block;
+
+
+
+   }
+   
+   
+   
+   
+ .content a{
+
+
+      display: block;
+   }
+
+   .content a:hover{
+  
+           background-color: #BBDEFB;
+
+   }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
